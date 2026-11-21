@@ -13,8 +13,8 @@ AI学習、無断転載、作者を偽る行為、ソースコードの丸コピ
 再起動時にランキングデータを引き継ぎたくない場合、*all_points.pkl*を削除してください。<br>
 
 ## インストーラー
-KeyboardRunning2 V1.0.0
-[Releases](../../releases)
+KeyboardRunning2 V1.0.0<br>
+[Releases](../../releases)<br>
 
 ### licenceについて
 ライセンスについて疑問があれば、記載されている連絡先にメールをお願いします。<br>
