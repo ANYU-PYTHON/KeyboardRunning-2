@@ -1,201 +1,309 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+# KeyboardRunning2 Proprietary License
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+# KeyboardRunning2 独自ライセンス
 
-   1. Definitions.
+Copyright (c) 2026 ANYU-PYTHON
+All rights reserved.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+本ソフトウェアおよび関連資料の著作権は、別途明記されている場合を除き、ANYU-PYTHONに帰属します。
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+Unless otherwise stated, the copyright of this software and its associated materials belongs to ANYU-PYTHON.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+## 1\. Definitions / 定義
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+**日本語**
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+本ライセンスにおいて、以下の用語は次の意味を持ちます。
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+* **本ソフトウェア**：KeyboardRunning2、そのソースコード、実行ファイル、画像、音声、フォント、その他の関連ファイルおよび資料を指します。ただし、第三者が権利を有するコンポーネントは除きます。
+* **公式配布物**：著作権者が公式に公開・配布する実行ファイルおよび関連ファイルを指します。
+* **利用者**：本ソフトウェアまたはその関連資料にアクセス、閲覧、ダウンロード、利用する個人または団体を指します。
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+**English**
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+For the purposes of this License, the following terms shall have the meanings set forth below:
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+* **Software**: Refers to KeyboardRunning2, its source code, executable files, images, audio, fonts, and other associated files and materials, excluding components owned by third parties.
+* **Official Distribution**: Refers to executable files and associated materials officially published or distributed by the Copyright Holder.
+* **User**: Refers to any individual or organization that accesses, views, downloads, or uses the Software or its associated materials.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+## 2\. Permitted Use / 許可される利用
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+**日本語**
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+本ライセンスの条件に従うことを条件として、利用者には以下の行為が許可されます。
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+1. GitHub等の公式公開ページにおいて、本ソフトウェアのソースコードおよび関連資料を閲覧すること。
+2. 公式配布物をダウンロードすること。
+3. 公式配布物を個人利用および非商用の教育目的でインストール・実行すること。
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+これらの許可は、本ライセンスに明記された範囲に限られます。本ソフトウェアの著作権その他の知的財産権を譲渡するものではありません。
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+**English**
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+Subject to compliance with this License, Users are permitted to:
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+1. View the source code and associated materials on official public pages, including GitHub.
+2. Download the Official Distribution.
+3. Install and run the Official Distribution for personal use and non-commercial educational purposes.
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+These permissions are limited to the scope expressly stated in this License. They do not constitute a transfer of copyright or any other intellectual property rights in the Software.
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+## 3\. Prohibited Activities / 禁止事項
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+**日本語**
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+本ソフトウェアを、著作権者による事前の書面での許可がない限り、利用者は以下の行為を行ってはなりません。
 
-   END OF TERMS AND CONDITIONS
+1. **AIモデルの学習への利用**
 
-   APPENDIX: How to apply the Apache License to your work.
+   * 本ソフトウェアを、AIモデルまたは機械学習モデルの学習、事前学習、ファインチューニングに利用すること。
+   * 本ソフトウェアを、AIモデルの学習を目的としたデータセットの作成、収集または提供に利用すること。
+   * 本ソフトウェアを、AIモデルの開発または性能向上を目的とする学習データとして利用すること。
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+   ただし、以下のようなAIを補助ツールとして利用する行為は、本項によって禁止されません。
 
-   Copyright [yyyy] [name of copyright owner]
+      * ソースコードの要約、解説、構造分析およびドキュメント作成。
+      * プログラムの動作やエラーの解析、デバッグの補助。
+      * プログラミング学習や技術的な理解を目的とした質問・回答。
+      * その他、AIモデル自体の学習を目的としない一般的な補助的利用。
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+   なお、これらの許可は、本ソフトウェアの複製、転載、再配布、公開または二次利用を許可するものではありません。
+2. **著作者の偽装**
 
-       http://www.apache.org/licenses/LICENSE-2.0
+   * 本ソフトウェアまたはその一部を、自らが制作したものであると偽って公表すること。
+   * 著作権者や作者について、虚偽または誤解を招く表示を行うこと。
+3. **無断転載・再配布**
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+   * 本ソフトウェア、公式配布物またはその一部を、著作権者の許可なく第三者に配布、転載、公開または提供すること。
+   * 本ソフトウェアを第三者がダウンロード可能な状態にすること。
+4. **ソースコードの複製**
+
+   * 本ソフトウェアのソースコードまたはその一部を、許可された範囲を超えて複製、転載、公開、配布または再利用すること。
+   * 本ソフトウェアのソースコードを基に、無断で改変版または派生作品を作成・公開すること。
+5. **商用利用**
+
+   * 本ソフトウェアまたはその一部を、営利目的で利用、販売、提供または組み込むこと。
+
+上記の禁止事項は、適用される法令上認められる権利や例外を制限するものではありません。また、GitHubの利用規約に基づいて許可される操作については、第6条に従います。
+
+**English**
+
+Unless prior written permission has been obtained from the Copyright Holder, Users shall not:
+
+1. **Use for AI Model Training**
+
+   * Using the Software, its source code, or associated materials to train, pre-train, or fine-tune AI or machine learning models.
+   * Using the Software or its associated materials to create, collect, or provide datasets for the purpose of training AI models.
+   * Using the Software or its associated materials as training data for the development or improvement of AI models.
+
+   However, the following uses of AI as an auxiliary tool are not prohibited under this section:
+
+   * Summarizing, explaining, and analyzing source code, and generating documentation.
+   * Analyzing program behavior and errors, and assisting with debugging.
+   * Asking and answering questions for programming education and technical understanding.
+   * Other general auxiliary uses that are not intended to train AI models themselves.
+
+   These permissions do not grant any right to reproduce, republish, redistribute, publish, or otherwise reuse the Software.
+2. **Misrepresentation of Authorship**
+
+   * Claim that the Software or any part of it was created by the User.
+   * Make false or misleading statements regarding the identity of the Copyright Holder or author.
+3. **Unauthorized Redistribution or Republication**
+
+   * Distribute, republish, publish, or provide the Software, Official Distribution, or any part thereof to third parties without the Copyright Holder's permission.
+   * Make the Software available for download by third parties.
+4. **Unauthorized Source Code Reproduction**
+
+   * Reproduce, republish, publish, distribute, or reuse the source code or any part thereof beyond the scope expressly permitted.
+   * Create or publish modified versions or derivative works based on the source code without permission.
+5. **Commercial Use**
+
+   * Use, sell, provide, or incorporate the Software or any part thereof for commercial purposes.
+
+Nothing in these restrictions shall limit rights or exceptions granted under applicable law. Operations permitted under GitHub's Terms of Service shall be subject to Section 6.
+
+
+## 4\. Third-Party Components / 第三者のコンポーネント
+
+**日本語**
+
+本ソフトウェアには、第三者が権利を有するライブラリ、フォント、画像、音声その他のコンポーネントが含まれる場合があります。
+
+これらのコンポーネントには、それぞれの権利者が定めるライセンスおよび利用条件が適用されます。本ライセンスは、それらの第三者の権利やライセンス条件を変更、制限または上書きするものではありません。
+
+**English**
+
+The Software may include libraries, fonts, images, audio, and other components owned by third parties.
+
+Such components remain subject to the licenses and terms established by their respective rights holders. This License does not modify, restrict, or supersede any third-party rights or license terms.
+
+
+## 5\. Copyright and Reservation of Rights / 著作権および権利の留保
+
+**日本語**
+
+本ライセンスで明示的に許可されたものを除き、本ソフトウェアに関するすべての権利は著作権者に留保されます。
+
+本ライセンスに明記されていない利用については、著作権者による事前の書面での許可が必要です。
+
+**English**
+
+Except for the permissions expressly granted under this License, all rights relating to the Software are reserved by the Copyright Holder.
+
+Any use not expressly permitted by this License requires prior written permission from the Copyright Holder.
+
+
+## 6\. Public Repository and GitHub Terms / 公開リポジトリおよびGitHubの利用規約
+
+**日本語**
+
+本ソフトウェアのソースコードは、GitHub等の公開リポジトリで閲覧可能な状態に公開される場合があります。
+
+GitHubの利用規約に基づき、公開リポジトリの閲覧やFork等、GitHubが提供する機能を通じた操作が認められる場合があります。本ライセンスは、GitHubの利用規約によってGitHubおよび他の利用者に認められる権利を無効にするものではありません。
+
+ただし、GitHubの機能を通じて認められる範囲を超えた複製、転載、再配布、利用については、本ライセンスおよび適用される法令に従うものとします。
+
+**English**
+
+The source code of the Software may be made publicly accessible through repositories on GitHub or similar platforms.
+
+Under GitHub's Terms of Service, certain actions, including viewing and forking public repositories, may be permitted through the functionality provided by GitHub. This License does not override rights granted to GitHub or other users under GitHub's Terms of Service.
+
+However, any reproduction, republication, redistribution, or use beyond the scope permitted through GitHub's functionality shall remain subject to this License and applicable law.
+
+
+## 7\. Disclaimer of Warranty / 保証の否認
+
+**日本語**
+
+本ソフトウェアは「現状有姿」で提供されます。著作権者は、明示的または黙示的を問わず、本ソフトウェアの動作、正確性、完全性、特定目的への適合性について、いかなる保証も行いません。
+
+**English**
+
+The Software is provided "AS IS", without warranty of any kind, express or implied. The Copyright Holder makes no warranties regarding the operation, accuracy, completeness, or fitness for a particular purpose of the Software.
+
+
+## 8\. Limitation of Liability / 責任の制限
+
+**日本語**
+
+適用される法令で認められる最大限の範囲において、著作権者は、本ソフトウェアの利用または利用不能によって生じた損害について責任を負いません。
+
+ただし、適用される法令により免責が認められない場合は、この限りではありません。
+
+**English**
+
+To the maximum extent permitted by applicable law, the Copyright Holder shall not be liable for any damages arising from the use or inability to use the Software.
+
+This limitation shall not apply where such exclusion of liability is prohibited by applicable law.
+
+
+## 9\. Permissions and Contact / 個別許諾および連絡先
+
+**日本語**
+
+本ライセンスで禁止されている行為について許可を希望する場合は、事前に著作権者へ連絡し、書面による許諾を得てください。
+
+連絡先：\niwakapython@outlook.com
+
+**English**
+
+Users wishing to engage in activities prohibited by this License must contact the Copyright Holder in advance and obtain written permission.
+
+Contact: \niwakapython@outlook.com
+
+
+## 10. Governing Law / 準拠法
+
+**日本語**
+
+本ライセンスは、日本国の法律に準拠し、同法に従って解釈されるものとします。
+本ライセンスに関連して生じる一切の事項については、日本国の法律を適用するものとします。
+
+**English**
+
+This License shall be governed by and construed in accordance with the laws of Japan.
+All matters arising in connection with this License shall be subject to the laws of Japan.
+
+## 11\. Language / 言語
+
+**日本語**
+
+本ライセンスは日本語および英語で記載されています。両言語の記載に相違または解釈上の疑義が生じた場合は、日本語版を優先するものとします。
+
+**English**
+
+This License is provided in both Japanese and English. In the event of any discrepancy or ambiguity between the two versions, the Japanese version shall prevail.
+
+## 12\. Termination / 利用許諾の終了
+
+**日本語**
+
+利用者が本ライセンスの条件に違反した場合、著作権者は、当該利用者に対する本ライセンスに基づく利用許諾を終了させることができます。
+利用許諾が終了した場合、利用者は本ソフトウェアの利用を中止し、著作権者から求められた場合には、許可されていない複製物の使用および配布を停止しなければなりません。
+ただし、適用される法令により認められる権利は、この条項によって制限されません。
+
+**English**
+
+If a User breaches any term of this License, the Copyright Holder may terminate the permissions granted to that User under this License.
+Upon termination, the User must cease using the Software and, upon request by the Copyright Holder, cease using and distributing any unauthorized copies.
+Nothing in this section shall restrict rights granted under applicable law.
+
+## 13\. Severability / 分離可能性
+
+**日本語**
+
+本ライセンスのいずれかの条項が、適用される法令により無効、違法または執行不能と判断された場合であっても、その他の条項は引き続き有効に存続するものとします。
+
+**English**
+
+If any provision of this License is determined to be invalid, illegal, or unenforceable under applicable law, the remaining provisions shall remain in full force and effect.
+
+## 14\. Amendments / ライセンスの改定
+
+**日本語**
+
+著作権者は、必要に応じて本ライセンスを改定することができます。
+改定後のライセンスは、公式配布ページまたは本ソフトウェアの公開リポジトリに掲載された時点で公開されるものとします。
+ただし、改定前に取得した本ソフトウェアに対する利用許諾の条件は、別途合意がない限り、取得時点で適用されていたライセンスに従うものとします。
+
+**English**
+
+The Copyright Holder may amend this License when necessary.
+Any revised version shall be published on the official distribution page or the public repository of the Software.
+Unless otherwise agreed, the terms applicable to permissions granted for copies of the Software obtained before such revision shall remain those of the License in effect at the time of acquisition.
+
+## 15\. Consultation / 協議
+
+**日本語**
+
+本ライセンスに定めのない事項、または本ライセンスの解釈について疑義が生じた場合、著作権者および利用者は、日本国の法令に従い、誠意をもって協議し、解決を図るものとします。
+
+**English**
+
+Any matters not specified in this License or any questions regarding its interpretation shall be resolved through good-faith consultation between the Copyright Holder and the User, in accordance with the laws of Japan.
+
+## 16. Permitted Reference and Quotation / 引用および紹介
+
+**日本語**
+
+著作権法その他の適用される法令により認められる引用等の行為を妨げるものではありません。
+
+また、著作権者の許可を得ることなく、本ソフトウェアの名称、スクリーンショット、ゲーム画面等を、作品の紹介、レビュー、教育、研究または報道を目的として掲載することを認めます。ただし、著作者を正しく表示し、著作権者または本ソフトウェアの公式な発表であると誤認させる表示を行ってはなりません。
+
+**English**
+
+Nothing in this License shall restrict quotation or other uses permitted under applicable copyright laws.
+
+Users may also display the name, screenshots, and gameplay footage of the Software for the purposes of presentation, review, education, research, or reporting without prior permission, provided that proper attribution is given and such use does not falsely imply endorsement or official publication by the Copyright Holder.
+
+**End of License / ライセンス終了**
+
+**License Version:** 1.0  
+**Effective Date:** November 22, 2026
+
+**ライセンスバージョン：** 1.0  
+**発効日：** 2026年11月22日
