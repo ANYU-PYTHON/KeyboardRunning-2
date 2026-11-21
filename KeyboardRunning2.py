@@ -56,7 +56,7 @@ while nums.main.run:
     elif nums.main.menu == "hissa":
         if nums.hissa.display() == "selected":
             nums.main.change_page("runing")
-            pygame.mixer.music.load("sounds/bgm.mp3")  # 2. 読み込み（ファイル名は適宜変更）
+            pygame.mixer.music.load(pathes("sounds/bgm.mp3"))  # 2. 読み込み（ファイル名は適宜変更）
             pygame.mixer.music.play(-1)
 
 

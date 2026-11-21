@@ -4,6 +4,8 @@ from datetime import datetime
 import threading
 import pickle
 import functools
+import os
+import sys
 
 @functools.cache
 def ttf(ttf, size, mode=None):
@@ -26,9 +28,17 @@ def ttf(ttf, size, mode=None):
         ttfn += "ipagp.ttf"
     elif ttf == "bis":
         ttfn+="BIZUDGothic-Regular.ttf"
-    ttfs: pg.font.Font = pg.font.Font(ttfn, size) 
+    ttfs: pg.font.Font = pg.font.Font(pathes(ttfn), size) 
     return ttfs
 
+@functools.cache
+def pathes(path: str):
+    if getattr(sys, "frozen", False):
+        base_path = os.path.dirname(__file__)
+    else:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    return os.path.join(base_path, path)
 
 def CEN(text: str, size: float, msize_x=1920, msize_y=1080, mode="None", font=None):
     """
@@ -177,16 +187,16 @@ class SOUNDS:
     from typing import Literal
     def __init__(self):
         self.sounds = {
-            "bad": pygame.mixer.Sound("sounds/BAD.mp3"),
-            "end": pygame.mixer.Sound("sounds/END.mp3"),
-            "oks": pygame.mixer.Sound("sounds/OK.mp3"),
-            "ok": pygame.mixer.Sound("sounds/PI.mp3"),
-            "start": pygame.mixer.Sound("sounds/start.mp3"),
-            "pon": pygame.mixer.Sound("sounds/timing.mp3"),
-            "bom": pygame.mixer.Sound("sounds/bomb.mp3"),
-            "don": pygame.mixer.Sound("sounds/DON.mp3"),
-            "slow": pygame.mixer.Sound("sounds/SLOW.mp3"),
-            "pun": pygame.mixer.Sound("sounds/PUN.mp3")
+            "bad": pygame.mixer.Sound(pathes("sounds/BAD.mp3")),
+            "end": pygame.mixer.Sound(pathes("sounds/END.mp3")),
+            "oks": pygame.mixer.Sound(pathes("sounds/OK.mp3")),
+            "ok": pygame.mixer.Sound(pathes("sounds/PI.mp3")),
+            "start": pygame.mixer.Sound(pathes("sounds/start.mp3")),
+            "pon": pygame.mixer.Sound(pathes("sounds/timing.mp3")),
+            "bom": pygame.mixer.Sound(pathes("sounds/bomb.mp3")),
+            "don": pygame.mixer.Sound(pathes("sounds/DON.mp3")),
+            "slow": pygame.mixer.Sound(pathes("sounds/SLOW.mp3")),
+            "pun": pygame.mixer.Sound(pathes("sounds/PUN.mp3"))
         }
 
     def play(self, sound: Literal["bad", "end", "oks", "ok", "start", "pon", "bom", "don", "slow", "pun"]):
@@ -516,7 +526,7 @@ class RUNS:
         self.point: int = 0
         # ---HP関連実装---
         self.hp: int = 7
-        self.hp_img: pygame.Surface = pygame.transform.scale(pygame.image.load(f"imgs/HP.png").convert_alpha(), (100,100))
+        self.hp_img: pygame.Surface = pygame.transform.scale(pygame.image.load(pathes("imgs/HP.png")).convert_alpha(), (100,100))
         # ---コンボ関連実装---
         self.combo: int = 0
         # ---ビーム関連実装---
@@ -527,9 +537,9 @@ class RUNS:
         self.user_now: int = 0
         self.usr_xy: list[int] = [10, 550]
         self.usr_obj: list[pygame.Surface] = [
-            pygame.transform.scale(pygame.image.load(f"imgs/usr1.png").convert_alpha(), (170,220)), 
-            pygame.transform.scale(pygame.image.load(f"imgs/usr2.png").convert_alpha(), (170,220)), 
-            pygame.transform.scale(pygame.image.load(f"imgs/usr3.png").convert_alpha(), (170,220))
+            pygame.transform.scale(pygame.image.load(pathes("imgs/usr1.png")).convert_alpha(), (170,220)), 
+            pygame.transform.scale(pygame.image.load(pathes("imgs/usr2.png")).convert_alpha(), (170,220)), 
+            pygame.transform.scale(pygame.image.load(pathes("imgs/usr3.png")).convert_alpha(), (170,220))
             ]
         
         # ---石関連実装---
@@ -545,7 +555,7 @@ class RUNS:
         self.hissa_cool_now: float = time.time() - 10
         self.hissa_while: dict[str, float] = {"カミナリ": 0.7, "ビーム": 0.2, "スロー": 10}   # 動作(表示)時間
         # ~~~カミナリ~~~    360,250
-        self.don_img: pygame.Surface = pygame.transform.scale(pygame.image.load("imgs/DOON.png").convert_alpha(), (208,390))
+        self.don_img: pygame.Surface = pygame.transform.scale(pygame.image.load(pathes("imgs/DOON.png")).convert_alpha(), (208,390))
         # ~~~必殺ビーム~~~
         self.pun_num: int = 7                   # 残り打てる回数
 
@@ -580,9 +590,9 @@ class RUNS:
         if nanis == None:
             nanis = [1,1,1,1,1,1,2,2,2,2]
         import random
-        File1 = open("EASY.ptn")
-        File2 = open("NOMAL.ptn")
-        File3 = open("HARD.ptn")
+        File1 = open(pathes("EASY.ptn"))
+        File2 = open(pathes("NOMAL.ptn"))
+        File3 = open(pathes("HARD.ptn"))
         RE1 = File1.readlines()
         RE2 = File2.readlines()
         RE3 = File3.readlines()
@@ -695,7 +705,7 @@ class RUNS:
             end(self.screen, self.num, "fin")
             self.num.main.change_page("result")
             pygame.mixer.music.stop()
-            pygame.mixer.music.load("sounds/bgm_result.mp3")  # 読み込み
+            pygame.mixer.music.load(pathes("sounds/bgm_result.mp3"))  # 読み込み
             pygame.mixer.music.play(-1) 
             self.screen.fill((0,0,0))
             return
@@ -716,7 +726,7 @@ class RUNS:
             
             self.num.main.change_page("result")
             pygame.mixer.music.stop()
-            pygame.mixer.music.load("sounds/bgm_result.mp3")  # 読み込み
+            pygame.mixer.music.load(pathes("sounds/bgm_result.mp3"))  # 読み込み
             pygame.mixer.music.play(-1) 
             self.screen.fill((0,0,0))
             return
@@ -905,7 +915,7 @@ def debug_GUI(screen: pygame.Surface, nums: NUMs, clock: pygame.time.Clock, inte
 
     blt(fps_text, screen, (10, 130))
     width, height = screen.get_size()
-    font = ttf("bis", 10)
+    font = ttf("ipa", 10)
 
     # 中心座標
     center_x = width // 2
