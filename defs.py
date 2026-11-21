@@ -26,8 +26,6 @@ def ttf(ttf, size, mode=None):
         ttfn+="PixelMplus10-Regular.ttf"
     elif ttf == "ipa":
         ttfn += "ipagp.ttf"
-    elif ttf == "bis":
-        ttfn+="BIZUDGothic-Regular.ttf"
     ttfs: pg.font.Font = pg.font.Font(pathes(ttfn), size) 
     return ttfs
 
